@@ -1,0 +1,4 @@
+name: Deploy gabut to JSR
+
+on:
+  workflow_dispatch: 

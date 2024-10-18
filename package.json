@@ -1,0 +1,23 @@
+{
+  "name": "gabut",
+  "version": "1.0.0",
+	"main": "index.ts",
+  "files": [
+    "index.ts",
+    "src/",
+    "src/*.ts"
+  ],
+	"scripts": {
+    "build": "tsc",
+    "build-web": "hammer",
+		"test": "bun test"
+	},
+  "devDepedencies": {
+    "@sinclair/hammer": "latest"
+  },
+	"keywords": [],
+	"author": "indra87g",
+	"license": "MIT",
+  "repository": "indra87g/gabut",
+	"description": ""
+}

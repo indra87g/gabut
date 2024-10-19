@@ -1,4 +1,6 @@
 {
     "name": "@indra87g/gabut",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "license": "MIT",
+    "exports": "./index.ts"
 }

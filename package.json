@@ -1,23 +1,27 @@
 {
   "name": "gabut",
   "version": "1.0.0",
-	"main": "index.ts",
+  "main": "index.ts",
   "files": [
     "index.ts",
     "src/",
     "src/*.ts"
   ],
-	"scripts": {
+  "scripts": {
     "build": "tsc",
     "build-web": "hammer",
-		"test": "bun test"
-	},
-  "devDepedencies": {
-    "@sinclair/hammer": "latest"
+    "test": "bun test"
   },
-	"keywords": [],
-	"author": "indra87g",
-	"license": "MIT",
+  "keywords": [],
+  "author": "indra87g",
+  "license": "MIT",
   "repository": "indra87g/gabut",
-	"description": ""
+  "description": "",
+  "dependencies": {
+    "@sinclair/hammer": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3"
+  }
 }

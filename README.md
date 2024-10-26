@@ -12,5 +12,5 @@ Useful utility library for javascript and production-ready node modules boilerpl
 
 ## Deployed to:
 - [npmjs]()
-- [jsr]()
+- [jsr](https://jsr.io/packages/@indra87g/gabut)
 - [deno.land (coming soon)]()

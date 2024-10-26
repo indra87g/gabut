@@ -1,31 +1,31 @@
 {
-  "name": "gabut",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "files": [
-    "index.ts",
-    "src/",
-    "src/*.ts"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "build-web": "hammer",
-    "test": "bun test"
-  },
-  "keywords": [],
-  "author": "indra87g",
-  "license": "MIT",
-  "repository": "indra87g/gabut",
-  "description": "",
-  "dependencies": {
-    "@sinclair/hammer": "^0.18.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/bun": "^1.1.12",
-    "eslint": "^9.13.0",
-    "prettier": "^3.3.3"
-  }
+	"name": "gabut",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"files": [
+		"index.ts",
+		"src/",
+		"src/*.ts"
+	],
+	"scripts": {
+		"build": "tsc",
+		"build-web": "hammer",
+		"test": "bun test"
+	},
+	"keywords": [],
+	"author": "indra87g",
+	"license": "MIT",
+	"repository": "indra87g/gabut",
+	"description": "",
+	"dependencies": {
+		"@sinclair/hammer": "^0.18.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.1.12",
+		"eslint": "^9.13.0",
+		"prettier": "^3.3.3"
+	}
 }

@@ -16,7 +16,7 @@
 	"author": "indra87g",
 	"license": "MIT",
 	"repository": "indra87g/gabut",
-	"description": "",
+	"description": "Useful utility library for javascript.",
 	"dependencies": {
 		"@sinclair/hammer": "^0.18.0"
 	},

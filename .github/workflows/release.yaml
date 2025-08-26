@@ -10,7 +10,7 @@ jobs:
       version: ${{ steps.extract_version.outputs.version }}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Extract Version from winutil.ps1
         id: extract_version
